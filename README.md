@@ -1,5 +1,4 @@
 # Landing-Page-for-Digifist-Assessment
-Landing page made for Digifist Assessment
 
 Project that made for Digifist Assessment.
 ## Introduction
