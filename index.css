@@ -155,10 +155,10 @@ margin-left: 5px;
 @media all and (min-width: 768px) and (max-width: 1024px) {
     body{
         overflow:scroll;
+        height: 100%;
     }
     .landing-container{
         display: flex;
-        height: 120vh!important;
         overflow: auto;
         }
     .landing-left-image
@@ -230,8 +230,12 @@ margin-left: 5px;
 /* For Smartphones and smaller*/
 
 @media all and (max-width: 480px) {
+    body{
+        overflow:scroll;
+        height: 100vh;
+    }
     .landing-container{
-        height:140vh;
+        height:100vh;
         overflow: auto;
     }
     .landing-left-image
