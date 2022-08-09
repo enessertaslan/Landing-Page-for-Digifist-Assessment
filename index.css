@@ -145,6 +145,13 @@ margin-left: 5px;
 }
 /*For tablets*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        overflow:scroll;
+    }
+    .landing-container{
+        display: flex;
+        
+        }
     .landing-left-image
     {
         position: absolute;
@@ -209,6 +216,10 @@ margin-left: 5px;
 /* For Smartphones and smaller*/
 
 @media all and (max-width: 480px) {
+    .landing-container{
+        height:140vh;
+        overflow: auto;
+    }
     .landing-left-image
     {
         position: absolute;
