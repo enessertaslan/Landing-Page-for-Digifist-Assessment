@@ -9,6 +9,6 @@ This project is for Technichal Assessment.Coding the provided design in Figma in
 
 This project aim to making design pixel,perfect and responsive.
 
-#Demo
+# Demo
 
 [Live Demo](https://enes-sertaslan-digifist-assessment.netlify.app/)
