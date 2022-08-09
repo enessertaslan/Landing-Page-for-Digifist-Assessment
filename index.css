@@ -28,6 +28,9 @@ display: flex;
     font-size: 1rem;
     font-family: 'ITC Avant Garde Gothic Pro';
 }
+.product-text-mobile{
+    display:none;
+}
 .product-text h1{
     font-size: 2.2rem;
     font-weight: 700;
@@ -189,6 +192,12 @@ margin-left: 5px;
         font-family: 'ITC Avant Garde Gothic Pro';
         padding-left: 10%;
         line-height: 130%;
+        display: none;
+    }
+    .product-text-mobile{
+        font-weight: 700;
+        display:block;
+        font-family: 'ITC Avant Garde Gothic Pro';
     }
     .shop-all-button{
         padding-left: 10%;
@@ -232,7 +241,7 @@ margin-left: 5px;
 @media all and (max-width: 480px) {
     body{
         overflow:scroll;
-        height: 100vh;
+        height: 100%;
     }
     .landing-container{
         height:100vh;
@@ -263,6 +272,12 @@ margin-left: 5px;
         font-family: 'ITC Avant Garde Gothic Pro';
         padding-left: 10%;
         line-height: 130%;
+        display: none;
+    }
+    .product-text-mobile{
+        font-weight: 700;
+        display:block;
+        font-family: 'ITC Avant Garde Gothic Pro';
     }
     .shop-all-button{
         padding-left: 10%;
